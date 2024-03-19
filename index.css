@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header__right i {
+  padding-right: 16px;
+  cursor: pointer;
+}
+.title__icons {
+  font-size: 13px;
+  color: cornflowerblue;
+}
+.cards__div .card {
+  width: 256px;
+  height: 256px;
+}
+.card {
+  width: 256px;
+  height: 256px;
+}
+.card i {
+  padding-top: 14px;
+  padding-right: 19.2px;
+  cursor: pointer;
+}
+.navbar-brand img {
+  width: 75px;
+}
+.card .card__image {
+  padding-bottom: 110px;
+  border-bottom: 1.6px solid rgba(206, 205, 205, 0.715);
+  position: relative;
+}
+
+.card img{
+height: 85px;
+overflow: hidden;
+}
+.card__image p{
+position: absolute; 
+font-weight: 500;
+font-size: 19.2px;
+left:15px; 
+top: 12.8px; 
+color:white; 
+}
+.card__image .card__image__p{
+    position: absolute;
+    top: 40px;
+    font-size: 10px;
+}
+.card__image  .card__image__icon{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    cursor: pointer;
+}
